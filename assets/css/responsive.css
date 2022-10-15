@@ -1,0 +1,109 @@
+@media (max-width: 600px) {
+    .container {
+        width: 600px;
+    }
+    .nav {
+        width: 600px;
+    }
+    .navbar-list {
+        display: none;
+    }
+    .navbar-logo {
+        margin-left: 25px;
+    }
+    .intro {
+        width: 600px;
+    }
+    .intro-box {
+        width: 550px;
+        background-image: none;
+    }
+    .intro-title {
+        margin-left: 25px;
+        width: 550px;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .intro-text {
+        margin-left: 25px;
+    }
+    .intro-btn {
+        margin-left: 25px;
+    }
+    .intro-bottom {
+        display: block;
+    }
+    .intro-left {
+        margin-bottom: 50px;
+        width: 600px;
+    }
+    .intro-right {
+        animation: none;
+        margin-left: 0px;
+        width: 600px;
+        justify-content: space-evenly;
+    }
+    .intro-mini-sentences {
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .intro-mini-title {
+        margin-left: 0px;
+    }
+    .companies-box {
+        width: 550px;
+        margin-left: 25px;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .companies-box img {
+        margin-left: 100px;
+    }
+    .services-top {
+        display: block;
+        margin-left: 25px;
+    }
+    .services-title {
+        margin-left: 0px;
+    }
+    .services-text {
+        margin-left: 0px;
+        width: 560px;
+        font-size: 17px;
+    }
+    .services-bottom {
+        display: block;
+        width: 600px;
+    }
+    .services-box {
+        margin-top: 30px;
+    }
+    .services-box:hover {
+        border: none;
+    }
+    .make {
+        width: 600px;
+    }
+    .make-top {
+        display: block;
+        width: 550px;
+    }
+    .make-line {
+        margin-left: 30px;
+    }
+    .make-title {
+        margin-left: 25px;
+    }
+    .make-text {
+        margin-left: 25px;
+        width: 550px;
+        font-size: 17px;
+    }
+    .make-bottom {
+        display: block;
+        width: 600px;
+        justify-content: space-between;
+        
+    }
+}

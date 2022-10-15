@@ -1,0 +1,1 @@
+var count1 = document.querySelector(".first-count")

@@ -1,0 +1,54 @@
+.navbar-link:hover {
+    color: #ffffff;
+}
+
+.intro-box {
+    animation: intro-box 2s ease;
+}
+
+.intro-btn:hover {
+    box-shadow: 0px 0px 20px 5px #60BBEE;
+}
+
+.intro-right {
+    animation: intro-right 2s ease;
+}
+
+@keyframes intro-box {
+    from {
+        background-position: 722px -0;
+        opacity: 0;
+    }
+    to {
+        background-position: 722px -192px;
+    }
+}
+
+@keyframes intro-right {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+        border-radius: 50px;
+    }
+    to {
+        transform: translateX(0px);
+        border-radius: 0px;
+    }
+}
+
+.services-box:hover {
+    border-bottom: 3px solid #242527;
+    transform: translateY(-10px);
+}
+
+.companies-img:hover {
+    transform: scale(1.2);
+}
+
+.make-minis:hover {
+    background: linear-gradient(200deg, #BDDBEC, white);
+}
+
+.make-minis:hover .make-image {
+    border: 10px solid white;
+}
