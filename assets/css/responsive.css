@@ -1,4 +1,7 @@
 @media (max-width: 600px) {
+    p {
+        width: 550px;
+    }
     .container {
         width: 600px;
     }
@@ -76,8 +79,15 @@
         display: block;
         width: 600px;
     }
+    .make-minis {
+        width: 200px;
+    }
     .services-box {
         margin-top: 30px;
+        width: 300px;
+    }
+    .services-bottom {
+        width: 300px;
     }
     .services-box:hover {
         border: none;
@@ -102,8 +112,23 @@
     }
     .make-bottom {
         display: block;
-        width: 600px;
+        width: 550px;
         justify-content: space-between;
-        
+        margin-left: 0px;
+    }
+    .make-minis {
+        margin-left: 25px;
+    }
+    .services-box h1 {
+        width: min-content;
+    }
+    .services-box p {
+        width: max-content;
+    }
+    .make-minis h1 {
+        width: min-content;
+    }
+    .make-minis p {
+        width: max-content;
     }
 }
