@@ -1,6 +1,13 @@
 @media (max-width: 600px) {
     * {
         flex-wrap: wrap;
+        border: 1px solid red;
+    }
+    nav {
+        width: 600px;
+    }
+    section {
+        width: 600px;
     }
     .container {
         width: 600px;
