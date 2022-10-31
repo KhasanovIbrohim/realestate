@@ -1,11 +1,8 @@
 @media (max-width: 600px) {
-    p {
-        width: 550px;
+    * {
+        flex-wrap: wrap;
     }
     .container {
-        width: 600px;
-    }
-    .nav {
         width: 600px;
     }
     .navbar-list {
@@ -14,121 +11,119 @@
     .navbar-logo {
         margin-left: 25px;
     }
-    .intro {
-        width: 600px;
-    }
-    .intro-box {
-        width: 550px;
-        background-image: none;
-    }
     .intro-title {
         margin-left: 25px;
         width: 550px;
-        font-size: 45px;
-        line-height: 50px;
     }
     .intro-text {
         margin-left: 25px;
+        width: 550px;
     }
     .intro-btn {
         margin-left: 25px;
     }
     .intro-bottom {
-        display: block;
-    }
-    .intro-left {
-        margin-bottom: 50px;
         width: 600px;
+        display: block;
     }
     .intro-right {
         animation: none;
         margin-left: 0px;
         width: 600px;
+        display: flex;
         justify-content: space-evenly;
-    }
-    .intro-mini-sentences {
-        line-height: 30px;
-        font-size: 12px;
+        margin-top: 25px;
     }
     .intro-mini-title {
+        margin-left: 25px;
+    }
+    .intro-mini-text {
         margin-left: 0px;
+    }
+    .intro-mini-sentences {
+        margin-left: 0px;
+        margin-top: 25px;
     }
     .companies-box {
         width: 550px;
         margin-left: 25px;
-        display: block;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .companies-box img {
-        margin-left: 100px;
     }
     .services-top {
-        display: block;
         margin-left: 25px;
+        width: 550px;
     }
     .services-title {
         margin-left: 0px;
     }
     .services-text {
         margin-left: 0px;
-        width: 560px;
-        font-size: 17px;
     }
     .services-bottom {
         display: block;
-        width: 600px;
-    }
-    .make-minis {
-        width: 200px;
+        width: max-content;
     }
     .services-box {
-        margin-top: 30px;
-        width: 300px;
-    }
-    .services-bottom {
-        width: 300px;
-    }
-    .services-box:hover {
-        border: none;
-    }
-    .make {
-        width: 600px;
-    }
-    .make-top {
-        display: block;
-        width: 550px;
+        width: max-content;
     }
     .make-line {
-        margin-left: 30px;
+        margin-left: 25px;
     }
     .make-title {
         margin-left: 25px;
     }
     .make-text {
         margin-left: 25px;
-        width: 550px;
-        font-size: 17px;
     }
     .make-bottom {
         display: block;
-        width: 550px;
-        justify-content: space-between;
-        margin-left: 0px;
+        max-width: max-content;
     }
-    .make-minis {
+    .meet-left {
+        width: 550px;
         margin-left: 25px;
     }
-    .services-box h1 {
-        width: min-content;
+    .meet-comment {
+        margin-left: 260px;
     }
-    .services-box p {
-        width: max-content;
+    .meet-title {
+        margin-left: 0px;
     }
-    .make-minis h1 {
-        width: min-content;
+    .meet-right {
+        margin-left: 25px;
     }
-    .make-minis p {
-        width: max-content;
+    .history-left {
+        margin-left: 25px
+    }
+    .history-title {
+        margin-left: 0px;
+    }
+    .history-main {
+        margin-left: 0px;
+    }
+    .history-right {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .news-title {
+        margin-left: 25px;
+    }
+    .news-list {
+        width: 550px;
+        margin-left: 25px;
+        display: block;
+    }
+    .projects-title {
+        margin-left: 25px;
+    }
+    .projects-list {
+        width: 600px;
+        margin-left: 0px;
+        justify-content: space-around;
+    }
+    .projects-box {
+        margin-top: 20px;
+    }
+    .footer {
+        display: none;
     }
 }
