@@ -1,7 +1,6 @@
 @media (max-width: 600px) {
     * {
         flex-wrap: wrap;
-        border: 1px solid red;
     }
     nav {
         width: 600px;
@@ -58,6 +57,8 @@
     .services-top {
         margin-left: 25px;
         width: 550px;
+        text-align: center;
+        display: block;
     }
     .services-title {
         margin-left: 0px;
@@ -72,14 +73,29 @@
     .services-box {
         width: max-content;
     }
+    .make-box {
+        width: 600px;
+        margin-left: 0px;
+    }
     .make-line {
         margin-left: 25px;
     }
-    .make-title {
+    .make-top {
+        width: 550px;
         margin-left: 25px;
+        display: block;
+    }
+    .make-title {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .make-bottom {
+        width: 600px;
+        margin-left: 160px;
     }
     .make-text {
-        margin-left: 25px;
+        text-align: center;
+        margin-left: 0px;
     }
     .make-bottom {
         display: block;
@@ -97,12 +113,38 @@
     }
     .meet-right {
         margin-left: 25px;
+        width: 550px;
+    }
+    .meet-title {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .meet-text {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .meet-box {
+        width: 550px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-evenly;
     }
     .history-left {
         margin-left: 25px
     }
     .history-title {
         margin-left: 0px;
+        text-align: center;
+    }
+    .history-right img {
+        margin-left: 12.5px;
+        width: 575px;
+    }
+    .history-btn {
+        margin-left: 197.5px;
+    }
+    .history-text {
+        text-align: center;
     }
     .history-main {
         margin-left: 0px;
@@ -112,15 +154,41 @@
         margin-top: 20px;
     }
     .news-title {
-        margin-left: 25px;
+        margin-left: 0px;
+        text-align: center;
     }
     .news-list {
         width: 550px;
         margin-left: 25px;
         display: block;
     }
+    .news-box-title {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .news-box-text {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .news-box {
+        margin-top: 20px;
+    }
+    .news-text {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .news-image {
+        margin-left: 91px;
+    }
+    .news-box div {
+        margin-left: 0px;
+        width: 550px;
+        display: flex;
+        justify-content: space-evenly;
+    }
     .projects-title {
-        margin-left: 25px;
+        margin-left: 0px;
+        text-align: center;
     }
     .projects-list {
         width: 600px;
@@ -129,8 +197,64 @@
     }
     .projects-box {
         margin-top: 20px;
+        width: max-content;
+        margin-left: 0px;
+    }
+    .projects-mini {
+        margin-left: 0px;
     }
     .footer {
         display: none;
+    }
+    .mobile-footer {
+        display: block;
+        width: 600px;
+        background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
+        margin-top: 25px;
+    }
+    .footer-list {
+        width: 600px;
+        margin-left: 0px;
+        padding-top: 25px;
+        display: block;
+    }
+
+    .footer-box {
+        padding-bottom: 25px;
+    }
+
+    .footer-icon {
+        height: 18px;
+    }
+
+    .footer-link {
+        text-align: center;
+    }   
+
+    .footer-title {
+        text-align: center;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .footer-box ul {
+        width: 595px;
+        display: flex;
+    }
+
+    .footer-sentence {
+        text-align: center;
+    }
+
+    .footer-box ul li {
+        width: 595px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .footer-icons-list {
+        margin-left: 207px;
     }
 }

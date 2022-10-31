@@ -1008,3 +1008,7 @@
         transform: scale(1);
     }
 }
+
+.mobile-footer {
+    display: none;
+}
