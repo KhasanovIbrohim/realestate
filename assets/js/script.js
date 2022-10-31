@@ -39,3 +39,19 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
 }
+
+var openBurgers = document.querySelector(".open-menu")
+var closeBurgers = document.querySelector(".close-menu")
+var burgermenu = document.querySelector(".burger-menu")
+
+function openBurger(){
+  openBurgers.style.display = "none";
+  closeBurgers.style.display = "block";
+  burgermenu.style.display = "block";
+}
+
+function closeBurger(){
+  openBurgers.style.display = "block";
+  closeBurgers.style.display = "none";
+  burgermenu.style.display = "none";
+}

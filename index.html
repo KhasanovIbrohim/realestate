@@ -20,32 +20,59 @@
 </head>
 
 <body>
-    <section class="core">
+    <section class="core" id="home">
         <nav class="nav">
             <div class="container">
                 <div class="navbar">
                     <h1 class="navbar-logo">General<br><span class="navbar-span">Project</span></h1>
                     <ul class="navbar-list">
                         <li class="navbar-li">
-                            <a class="navbar-link" href="#">Home</a>
+                            <a class="navbar-link" href="#home">Home</a>
                         </li>
                         <li class="navbar-li">
-                            <a class="navbar-link" href="#">Services</a>
+                            <a class="navbar-link" href="#services">Services</a>
                         </li>
                         <li class="navbar-li">
-                            <a class="navbar-link" href="#">Find a Team</a>
+                            <a class="navbar-link" href="#team">Find a Team</a>
                         </li>
                         <li class="navbar-li">
-                            <a class="navbar-link" href="#">About Us</a>
+                            <a class="navbar-link" href="#about">About Us</a>
                         </li>
                         <li class="navbar-li">
-                            <a class="navbar-link" href="#">Articles</a>
+                            <a class="navbar-link" href="#articles">Articles</a>
                         </li>
                         <li class="navbar-li">
-                            <a class="navbar-link" href="#">Portofolio</a>
+                            <a class="navbar-link" href="#porfolio">Portofolio</a>
                         </li>
                         <li class="navbar-li">
-                            <a class="navbar-link" href="#">Contact us</a>
+                            <a class="navbar-link" href="#contact">Contact us</a>
+                        </li>
+                    </ul>
+                    <button class="burger-btn open-menu" onclick="openBurger()"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAANUlEQVRIie3TsQ0AIAwDwYj9t8pgoWIApJCGuwVeLhwBdKuqrPfy9Nb0vuEeX3MnaONOwK0NKrA4cwLOQUAAAAAASUVORK5CYII="></button>
+                    <button class="burger-btn close-menu" onclick="closeBurger()"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAABC0lEQVRIieXWvQrCMBDA8X9FVPBVdOijOLmIVH0sPxBxcfJNHPRRXETFczDVYNs0rUkVvCW0OfIj6YUe/FsE+oOItIAR0AHqjowrcACWQRCcErMi0hKRnfiLndoYADXNjoDQ0S7TIlRGAu56RBOGDrv6pqZ4GjVTls/4eXgLrC3y1irXGXwGJsDKkLNROUebBW0Lqq/G4duoo0NgmjL3EWzCC6NF4TS8WQYtA8f4BRir5wUwKLrI165TmR3H1TvjddQ3PB91ViFlVbsTOAvNu2ofwXlXpjBuCzeAOebqjau9bbOgLdyzzLO+Vj//d/IKXyvwnoYOHyqA94k3Vbe3aQ19xKMbrKah/5u4A/P3/tNsudvHAAAAAElFTkSuQmCC"></button>
+                </div>
+                <div class="burger-menu">
+                    <ul class="burger-list">
+                        <li class="burger-li">
+                            <a class="burger-link" onclick="closeBurger()" href="#home">Home</a>
+                        </li>
+                        <li class="burger-li">
+                            <a class="burger-link" onclick="closeBurger()" href="#services">Services</a>
+                        </li>
+                        <li class="burger-li">
+                            <a class="burger-link" onclick="closeBurger()" href="#team">Find a Team</a>
+                        </li>
+                        <li class="burger-li">
+                            <a class="burger-link" onclick="closeBurger()" href="#about">About Us</a>
+                        </li>
+                        <li class="burger-li">
+                            <a class="burger-link" onclick="closeBurger()" href="#articles">Articles</a>
+                        </li>
+                        <li class="burger-li">
+                            <a class="burger-link" onclick="closeBurger()" href="#porfolio">Portofolio</a>
+                        </li>
+                        <li class="burger-li">
+                            <a class="burger-link" onclick="closeBurger()" href="#contact">Contact us</a>
                         </li>
                     </ul>
                 </div>
@@ -98,15 +125,15 @@
             </div>
         </div>
     </section>
-    <section class="services reveal">
+    <section class="services" id="services">
         <div class="container">
-            <div class="services-top">
+            <div class="services-top reveal">
                 <h1 class="services-title">Our Excellent <br> Services</h1>
                 <p class="services-text">Check out our best service you can possibly orders in building <br>
                     your company and don't forget to ask via our email or our <br>
                     customer service if you are interested in using our services</p>
             </div>
-            <div class="services-bottom">
+            <div class="services-bottom reveal">
                 <div class="services-box">
                     <img src="./assets/images/services1.png" alt="image" class="services-image">
                     <h1>Industrial</h1>
@@ -131,17 +158,17 @@
             </div>
         </div>
     </section>
-    <section class="make reveal">
+    <section class="make" id="team">
         <div class="container">
             <div class="make-box">
-                <div class="make-line"></div>
-                <div class="make-top">
+                <div class="make-line reveal"></div>
+                <div class="make-top reveal">
                     <h1 class="make-title">What Make Us <br> Different?</h1>
                     <p class="make-text">Check out our best service you can possibly orders in building <br>
                         your company and don't forget to ask via our email or our <br>
                         customer service if you are interested in using our services</p>
                 </div>
-                <div class="make-bottom">
+                <div class="make-bottom reveal">
                     <div class="make-minis">
                         <div class="make-image">
                             <img src="./assets/images/bag.png" style="width: 32px; height: 29px; margin-top: 32px;" ;
@@ -190,7 +217,7 @@
             </div>
         </div>
     </section>
-    <section class="meet reveal">
+    <section class="meet reveal" id="about">
         <div class="container">
             <div class="meet-main">
                 <div class="meet-left">
@@ -218,7 +245,7 @@
             </div>
         </div>
     </section>
-    <section class="history reveal">
+    <section class="history reveal" id="articles">
         <div class="container">
             <div class="history-main">
                 <div class="history-left">
@@ -237,10 +264,10 @@
             </div>
         </div>
     </section>
-    <section class="news reveal">
+    <section class="news">
         <div class="container">
-            <h1 class="news-title">News & Update</h1>
-            <div class="news-list">
+            <h1 class="news-title reveal">News & Update</h1>
+            <div class="news-list reveal">
                 <div class="news-box">
                     <img class="news-image" src="./assets/images/newsfirst.png" alt="image">
                     <div>
@@ -282,11 +309,11 @@
             </div>
         </div>
     </section>
-    <section class="projects reveal">
+    <section class="projects">
         <div class="container">
-            <h1 class="projects-title">Our collection<br>
+            <h1 class="projects-title reveal">Our collection<br>
                 best project</h1>
-            <div class="projects-list">
+            <div class="projects-list reveal">
                 <div style="background-image: url(./assets/images/projects1.png);" class="projects-box">
                     <div class="projects-mini">
                         <div>
@@ -457,10 +484,10 @@
                             <h1 class="footer-sentence">More</h1>
                             <ul>
                                 <li>
-                                    <a class="footer-link" href="#">Documentation</a>
+                                    <a class="footer-link" href="https://t.me/ibrohim_KHasanov">Mede by: Ibrohim</a>
                                 </li>
                                 <li>
-                                    <a class="footer-link" href="#">License</a>
+                                    <a class="footer-link" href="#license">© Real Estate 2022</a>
                                 </li>
                             </ul>
                         </div>
@@ -495,16 +522,16 @@
                         <h1 class="footer-sentence">Company</h1>
                         <ul>
                             <li>
-                                <a class="footer-link" href="#">About</a>
+                                <a class="footer-link" href="#about">About</a>
                             </li>
                             <li>
-                                <a class="footer-link" href="#">How it Works</a>
+                                <a class="footer-link" href="#how">How it Works</a>
                             </li>
                             <li>
-                                <a class="footer-link" href="#">Term</a>
+                                <a class="footer-link" href="#term">Term</a>
                             </li>
                             <li>
-                                <a class="footer-link" href="#">Privacy Policy</a>
+                                <a class="footer-link" href="#privacy">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
@@ -512,10 +539,10 @@
                         <h1 class="footer-sentence">More</h1>
                         <ul>
                             <li>
-                                <a class="footer-link" href="#">Documentation</a>
+                                <a class="footer-link" href="https://t.me/ibrohim_KHasanov">Mede by: Ibrohim</a>
                             </li>
                             <li>
-                                <a class="footer-link" href="#">License</a>
+                                <a class="footer-link" href="#license">© Real Estate 2022</a>
                             </li>
                         </ul>
                     </div>

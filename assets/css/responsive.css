@@ -2,36 +2,59 @@
     * {
         flex-wrap: wrap;
     }
+
     nav {
         width: 600px;
+        padding-top: 48px;
     }
+
+    .navbar {
+        width: 550px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-logo {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
     section {
         width: 600px;
     }
+
     .container {
         width: 600px;
     }
+
     .navbar-list {
         display: none;
     }
+
     .navbar-logo {
         margin-left: 25px;
     }
+
     .intro-title {
         margin-left: 25px;
         width: 550px;
     }
+
     .intro-text {
         margin-left: 25px;
         width: 550px;
     }
+
     .intro-btn {
         margin-left: 25px;
     }
+
     .intro-bottom {
         width: 600px;
         display: block;
     }
+
     .intro-right {
         animation: none;
         margin-left: 0px;
@@ -40,178 +63,223 @@
         justify-content: space-evenly;
         margin-top: 25px;
     }
+
     .intro-mini-title {
         margin-left: 25px;
     }
+
     .intro-mini-text {
         margin-left: 0px;
     }
+
     .intro-mini-sentences {
         margin-left: 0px;
         margin-top: 25px;
     }
+
     .companies-box {
         width: 550px;
         margin-left: 25px;
     }
+
     .services-top {
         margin-left: 25px;
         width: 550px;
         text-align: center;
         display: block;
     }
+
     .services-title {
         margin-left: 0px;
     }
+
     .services-text {
         margin-left: 0px;
     }
+
     .services-bottom {
         display: block;
         width: max-content;
     }
+
     .services-box {
         width: max-content;
     }
+
     .make-box {
         width: 600px;
         margin-left: 0px;
     }
+
     .make-line {
         margin-left: 25px;
     }
+
     .make-top {
         width: 550px;
         margin-left: 25px;
         display: block;
     }
+
     .make-title {
         margin-left: 0px;
         text-align: center;
     }
+
     .make-bottom {
         width: 600px;
         margin-left: 160px;
     }
+
     .make-text {
         text-align: center;
         margin-left: 0px;
     }
+
     .make-bottom {
         display: block;
         max-width: max-content;
     }
+
     .meet-left {
         width: 550px;
         margin-left: 25px;
     }
+
     .meet-comment {
         margin-left: 260px;
     }
+
     .meet-title {
         margin-left: 0px;
     }
+
     .meet-right {
         margin-left: 25px;
         width: 550px;
     }
+
     .meet-title {
         text-align: center;
         margin-left: 0px;
     }
+
     .meet-text {
         text-align: center;
         margin-left: 0px;
     }
+
     .meet-box {
         width: 550px;
         margin-left: 0px;
         display: flex;
         justify-content: space-evenly;
     }
+
     .history-left {
         margin-left: 25px
     }
+
     .history-title {
         margin-left: 0px;
         text-align: center;
     }
+
     .history-right img {
         margin-left: 12.5px;
         width: 575px;
     }
+
     .history-btn {
         margin-left: 197.5px;
     }
+
     .history-text {
         text-align: center;
     }
+
     .history-main {
         margin-left: 0px;
     }
+
     .history-right {
         margin-left: 0px;
         margin-top: 20px;
     }
+
     .news-title {
         margin-left: 0px;
         text-align: center;
     }
+
     .news-list {
         width: 550px;
         margin-left: 25px;
         display: block;
     }
+
     .news-box-title {
         text-align: center;
         margin-left: 0px;
     }
+
     .news-box-text {
         text-align: center;
         margin-left: 0px;
     }
+
     .news-box {
         margin-top: 20px;
     }
+
     .news-text {
         text-align: center;
         margin-left: 0px;
     }
+
     .news-image {
         margin-left: 91px;
     }
+
     .news-box div {
         margin-left: 0px;
         width: 550px;
         display: flex;
         justify-content: space-evenly;
     }
+
     .projects-title {
         margin-left: 0px;
         text-align: center;
     }
+
     .projects-list {
         width: 600px;
         margin-left: 0px;
         justify-content: space-around;
     }
+
     .projects-box {
         margin-top: 20px;
         width: max-content;
         margin-left: 0px;
     }
+
     .projects-mini {
         margin-left: 0px;
     }
+
     .footer {
         display: none;
     }
+
     .mobile-footer {
         display: block;
         width: 600px;
         background: linear-gradient(219.84deg, #474747 4.14%, #222222 44.22%);
         margin-top: 25px;
     }
+
     .footer-list {
         width: 600px;
         margin-left: 0px;
@@ -229,32 +297,103 @@
 
     .footer-link {
         text-align: center;
-    }   
+    }
 
     .footer-title {
         text-align: center;
+        font-size: 27px;
     }
 
     .footer-text {
         text-align: center;
+        font-size: 17px;
+    }
+
+    .footer-box {
+        margin-top: 30px;
     }
 
     .footer-box ul {
         width: 595px;
         display: flex;
+        margin-top: 25px;
     }
 
     .footer-sentence {
         text-align: center;
+        font-size: 27px;
+    }
+
+    .footer-link {
+        font-size: 20px;
     }
 
     .footer-box ul li {
         width: 595px;
         margin-top: 0px;
         text-align: center;
+        margin-top: 20px;
     }
 
     .footer-icons-list {
         margin-left: 207px;
+    }
+
+    .burger-btn {
+        width: max-content;
+        height: max-content;
+        background-color: #222222;
+        border: none;
+    }
+
+    .burger-btn img {
+        padding: 10px;
+    }
+
+    .open-menu {
+        display: block;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .burger-menu {
+        width: 600px;
+        height: 100vh;
+        margin-left: 0px;
+        position: absolute;
+        background-color: #222222;
+        z-index: 15;
+        animation: burger-open 0.5s ease;
+    }
+
+    @keyframes burger-open {
+        from {
+            opacity: 0;
+            transform: translateX(600px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    .burger-list {
+        margin-left: 25px;
+        padding-top: 25px;
+    }
+
+    .burger-li {
+        margin-top: 20px;
+    }
+
+    .burger-link {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
     }
 }
