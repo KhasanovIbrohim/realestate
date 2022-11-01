@@ -360,7 +360,7 @@
 
     .burger-menu {
         width: 600px;
-        height: 100vh;
+        height: max-content;
         margin-left: 0px;
         position: absolute;
         background-color: #222222;
@@ -382,6 +382,7 @@
     .burger-list {
         margin-left: 25px;
         padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .burger-li {
