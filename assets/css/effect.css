@@ -27,7 +27,7 @@
 }
 
 .intro-right {
-    animation: intro-right 2s ease;
+    animation: intro-right 7s ease;
 }
 
 @keyframes intro-box {
@@ -43,14 +43,11 @@
 
 @keyframes intro-right {
     from {
-        transform: translateX(-100px);
         opacity: 0;
-        border-radius: 50px;
     }
 
     to {
-        transform: translateX(0px);
-        border-radius: 0px;
+        opacity: 1;
     }
 }
 
@@ -120,46 +117,61 @@
 .reveal {
     position: relative;
     opacity: 0;
-  }
-  .reveal.active {
+}
+
+.reveal.active {
     opacity: 1;
-  }
-  .active.fade-bottom {
+}
+
+.inactive {
+    transition: all 0.3s;
+    transform: scale(0);
+}
+
+.active.fade-bottom {
     animation: fade-bottom 1s ease;
-  }
-  .active.fade-left {
+}
+
+.active.fade-left {
     animation: fade-left 1s ease;
-  }
-  .active.fade-right {
+}
+
+.active.fade-right {
     animation: fade-right 1s ease;
-  }
-  @keyframes fade-bottom {
+}
+
+@keyframes fade-bottom {
     0% {
-      transform: translateY(75px);
-      opacity: 0;
+        transform: translateY(100px);
+        opacity: 0;
     }
+
     100% {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  @keyframes fade-left {
+}
+
+@keyframes fade-left {
     0% {
-      transform: translateX(-150px);
-      opacity: 0;
+        transform: translateX(-200px);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  @keyframes fade-right {
+}
+
+@keyframes fade-right {
     0% {
-      transform: translateX(150px);
-      opacity: 0;
+        transform: translateX(200px);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
+}
